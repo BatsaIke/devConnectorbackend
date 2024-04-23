@@ -1,16 +1,15 @@
 {
-    "name": "your-app",
-    "version": "1.0.0",
-    "scripts": {
-      "start": "node server.js" 
-    },
-  
-    "vercel": {
-      "functions": "api", 
-      "routes": [
-        { "handle": "filesystem" },
-        { "src": "/api/v1/(.*)", "dest": "api/v1/$1" }
-      ]
-    }
+    "version": 2,
+    "builds": [
+      {
+        "src": "server.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "server.js"
+      }
+    ]
   }
-  
