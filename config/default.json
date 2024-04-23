@@ -1,0 +1,6 @@
+{
+    "mongoURI":"mongodb+srv://Batsa:12345@cluster0.2a1at.mongodb.net/DEV_ConnectorDB?retryWrites=true&w=majority",
+    "jwtSecret":"mySecretToken",
+    "githubClientId":"a4a5e142c87f0d2eaf58",
+    "githubSecret":"d8d8c2c061e279dcfa4deee92d56263de2194ce9"
+}
