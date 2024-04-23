@@ -2,7 +2,7 @@ const User = require('../model/UserModel.js')
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const config = require("config");
-const { validationResult } = require("express-validator");
+const { validationResult } = require("express-validator"); 
 
 //@rout GET api/auth
 //@desc test route
